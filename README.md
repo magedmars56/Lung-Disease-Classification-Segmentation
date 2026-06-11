@@ -190,3 +190,6 @@ Integrate Vision Transformers (ViT)
 Deploy as a web application (Flask / Streamlit)
 Build real-time inference API
 Train on larger datasets (e.g., NIH ChestX-ray14)
+
+## 👨‍💻 Author
+Maged Hujira
