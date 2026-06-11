@@ -1,5 +1,6 @@
-🩺 Chest X-ray Analysis Using Deep Learning
-🧠 Segmentation + Multi-Label Classification System
+## 🩺 Chest X-ray Analysis Using Deep Learning
+
+## 🧠 Segmentation + Multi-Label Classification System
 
 This project presents an end-to-end deep learning system for analyzing chest X-ray images. It combines:
 
@@ -8,7 +9,7 @@ This project presents an end-to-end deep learning system for analyzing chest X-r
 
 The system is designed to assist in medical decision-making by highlighting disease regions and predicting multiple thoracic conditions.
 
-📌 Project Objective
+## 📌 Project Objective
 
 The goal of this project is to:
 
@@ -19,7 +20,7 @@ Segmentation masks
 Heatmaps
 Bounding boxes
 
-🏗️ System Architecture
+## 🏗️ System Architecture
 
 1️⃣ Segmentation Model
 Architecture: U-Net
@@ -83,7 +84,8 @@ Matplotlib
 PIL
 NumPy
 
-⚙️ Training Configuration
+## ⚙️ Training Configuration
+
 🔷 Segmentation
 Epochs: 50
 Batch Size: 8
@@ -100,7 +102,8 @@ Optimizer: AdamW
 Handles class imbalance using pos_weight
 Dynamic threshold tuning for best F1-score
 
-📊 Evaluation Metrics
+## 📊 Evaluation Metrics
+
 Segmentation
 Dice Score (primary metric)
 IoU Score
@@ -109,7 +112,8 @@ Micro F1-score
 ROC-AUC
 Accuracy
 Per-class F1-score analysis
-📈 Outputs & Visualizations
+
+## 📈 Outputs & Visualizations
 
 The project generates:
 
@@ -129,7 +133,9 @@ Additionally:
 
 Per-epoch checkpoints
 Training metrics history (pickle files)
-🚀 How to Run the Project
+
+## 🚀 How to Run the Project
+
 1️⃣ Install dependencies
 pip install torch torchvision segmentation-models-pytorch scikit-learn matplotlib opencv-python pillow pandas
 2️⃣ Run Segmentation Training
@@ -137,7 +143,8 @@ python segmentation.py
 3️⃣ Run Classification Training
 python classification.py
 
-📁 Project Structure
+## 📁 Project Structure
+
 Graduation_Project/
 │
 ├── Data_Entry_2017.csv
@@ -154,7 +161,7 @@ Graduation_Project/
 ├── cls_metrics/
 ├── seg_predictions/
 
-🧩 Key Features
+## 🧩 Key Features
 
 ✔ End-to-end medical imaging pipeline
 ✔ Combines segmentation and classification
@@ -164,7 +171,7 @@ Graduation_Project/
 ✔ Mixed precision training for performance
 ✔ Automatic checkpointing and resuming
 
-🏥 Medical Use Case
+## 🏥 Medical Use Case
 
 This system can support:
 
@@ -176,7 +183,8 @@ Reducing radiologist workload
 
 This project is intended for educational and research purposes only and should not be used as a replacement for professional medical diagnosis.
 
-👨‍💻 Future Improvements
+## 👨‍💻 Future Improvements
+
 Replace U-Net with Attention U-Net or TransUNet
 Integrate Vision Transformers (ViT)
 Deploy as a web application (Flask / Streamlit)
