@@ -193,3 +193,9 @@ Train on larger datasets (e.g., NIH ChestX-ray14)
 
 ## 👨‍💻 Author
 Maged Hujira
+
+## 📫 Contact Me
+
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/201234567890)
+
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/username)
